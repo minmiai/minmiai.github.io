@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get help with Minmi for iPhone and Android.">
+    <title>Support - Minmi</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/">&larr; Minmi</a>
+            <h1>Support / 지원</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="contact-card">
+            <div class="emoji">📧</div>
+            <h3>Get in Touch</h3>
+            <p>Need help pairing a phone, continuing a conversation, or reading a photo?</p>
+            <h3 lang="ko">문의하기</h3>
+            <p lang="ko">휴대폰 연결, 대화 이어가기, 사진 판독에 도움이 필요하신가요?</p>
+            <a href="https://github.com/Joonk72/Minmi/issues">GitHub Issues</a>
+        </div>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What do I need to use Minmi?</h3>
+                <p>You need Minmi Mac with Siri Chat on macOS 26 or later. Install Tailscale on the Mac and phone and connect both to the same tailnet. The Mac also needs to remain available in a logged-in desktop session with Minmi's Accessibility access enabled.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How are my questions and photos processed?</h3>
+                <p>Minmi sends submitted content over HTTPS to your paired Mac. The Mac checks photos locally before passing requests to Siri Chat. Siri may process requests on-device, through Private Cloud Compute, or through ChatGPT depending on Apple's system behavior and settings. Minmi cannot select or inspect Siri's internal processing route. See the <a href="/privacy/">Privacy Policy</a>.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I delete my data?</h3>
+                <p>Delete conversation history and request traces in Minmi. Mac-side execution logs are stored on the Mac and must be removed there. Unpairing revokes the phone's access token but does not delete history or logs.</p>
+            </div>
+        </section>
+
+        <section class="policy-language" lang="ko">
+            <h2>자주 묻는 질문</h2>
+            <div class="faq-item">
+                <h3>Minmi를 사용하려면 무엇이 필요한가요?</h3>
+                <p>macOS 26 이상에서 Siri Chat이 켜진 Minmi Mac이 필요합니다. Mac과 휴대폰에 Tailscale을 설치하고 같은 tailnet에 연결해 주세요. Mac은 로그인된 데스크톱 세션에서 실행 중이어야 하며, Minmi에 손쉬운 사용 권한을 허용해야 합니다.</p>
+            </div>
+            <div class="faq-item">
+                <h3>질문과 사진은 어떻게 처리되나요?</h3>
+                <p>Minmi는 제출한 내용을 HTTPS로 페어링된 Mac에 보냅니다. 사진은 Mac에서 로컬 검사를 거친 뒤 Siri Chat으로 전달됩니다. Siri는 Apple의 시스템 동작과 설정에 따라 요청을 온디바이스, Private Cloud Compute 또는 ChatGPT로 처리할 수 있습니다. Minmi는 Siri의 내부 처리 경로를 선택하거나 확인할 수 없습니다. 자세한 내용은 <a href="/privacy/">개인정보 처리방침</a>을 확인해 주세요.</p>
+            </div>
+            <div class="faq-item">
+                <h3>데이터를 삭제하려면 어떻게 하나요?</h3>
+                <p>Minmi에서 대화 기록과 요청 추적 정보를 삭제할 수 있습니다. Mac 실행 로그는 Mac에 저장되므로 해당 Mac에서 삭제해야 합니다. 페어링을 해제하면 휴대폰의 접근 토큰은 폐기되지만 대화 기록이나 로그는 삭제되지 않습니다.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <a href="/">Minmi</a>
+            <a href="/">Minmi</a>
+            <a href="/privacy/">Privacy Policy</a>
+            <a href="/privacy/" lang="ko">개인정보 처리방침</a>
+            <div class="copy">&copy; 2026 Minmi. All rights reserved.</div>
+        </div>
+    </footer>
+</body>
+</html>
